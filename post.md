@@ -1,4 +1,4 @@
-Software development can be a messy, complex beast. Feature creep is always 
+Software Development can be a messy, complex beast. Feature creep is always 
 lurking around the corner, getting even a small team on the same page can feel daunting and communication can easily become muddied.  After working on teams for over 45 products I’ve become a strong believer in the value of using user stories to guide the development process. If you are a entrepreneur, developer or designer working on a new product or updating an existing application, user stories can give you and your whole team a great framework for keeping your project organized, cohesive and focused.
 
 ##What are user stories?
