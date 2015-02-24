@@ -112,7 +112,7 @@ Lastly, go through and make decisions of what user stories will be implemented i
 A user story document is not only valuable for developing new software but also for iterating on existing software. Often times if I’m iterating on a product, I’ll start by creating a user story document for the existing product. It’s an amazing way to deeply understand the product and (often) start to see some of the problems as well. Then I’ll make a second document for the iteration project highlighting features and stories that will be changed, added or removed.
 
 ##A note to those who think this is just fussy, old school, waterfall-style organizational overhead##
-**add paragraph here
+**add a paragraph here
 
 ##Worth the time##
 Now you have a nice document that you can use to enforce a focused and cohesive vision for the product. This process can feel time consuming but is immensely valuable in reducing costs, confusion and misdirection. The business team can use the feature list and terms to create detailed copy for marketing materials, the design team can use the stories to create information architecture and wireframes for the app, and the dev team can use them to design and build the code structure. When you all sync up to share and combine work there will be far fewer surprises, holes and frustrations and everything will flow together much more smoothly. As changes inevitably arrive as you go along, you can update this document to reflect the latest goals and priorities.
