@@ -33,7 +33,7 @@ I  very strongly believe that user story creation is best done with not only the
 Okay so lets get started. I like to use a Google Drive spreadsheet for my user story doc as it’s easy to share and update.For the purpose of this article, I will be showing you the process using a simple meditation timer app that I built 2 years ago. 
 
 ##The 5 Step Process
-**1. Write the Features**
+###1. Write the Features###
 
 So first we want to write out the main features of the product. You can be ambitious here. In an ideal world, what would it do? We’ll come back later with a reality check as to how many of these features we can actually build.
 So for my mediation timer I’m going to say:
@@ -44,7 +44,7 @@ So for my mediation timer I’m going to say:
 
 That feels pretty complete to me so let’s move on.
 
-**2. Identify User Types**
+###2. Identify User Types###
 
 This is an extremely important and often overlooked part of the process. The user types we are talking about here are not ‘a 90-year-old woman’, ‘a monk’, ‘a 20-something hipster’. Those are personas. User types are classes that the app assigns to a user that determine which views and functionality the user will have access to (which permissions they will have). For example, we might have ‘visitor’, ‘basic user’, ‘admin’, ‘super-admin’ etc.
  
@@ -55,7 +55,7 @@ For the sake of my meditation timer I’m going to assume that I will be creatin
 
 It’s important to strive to find accurate and descriptive names for your user types. Don’t waste too much time trying to be clever, though. The most important thing is that everyone is clear on what the user types are and uses the same language to describe them. I also note when I have a hierarchy of permissions. For example stating that a ‘social user’ in my app has all the same permissions as a ‘mediator’ and can take all the actions a meditator can take.
 
-**3. Identify Terms & Metaphors**
+###3. Identify Terms & Metaphors###
 
 I’m alarmed how often I find myself on teams where the business team, dev team and design team are using completely different vernacular to describe the same thing. This quickly creates a tower of babel that can derail forward momentum and cause anywhere from minor to major miscommunications. To help clear this up we create a list of terms and metaphors associated with the product. Again, it’s important to find accurate and descriptive terms but don’t get into a time suck with trying to be overly clever.
 
@@ -70,7 +70,7 @@ So for my meditation timer I have:
 
 When you first create this list, it will not be complete. I usually jot down 5 or 6 words and move on. Then, as I’m writing my user stories, I’ll bold terms that appear in each user story and add them to my list of terms & metaphors.
 
-**4. Write the Stories**
+###4. Write the Stories###
 
 Okay so now we dive in to actually writing the stories. I like to take it one feature at a time and one user type at a time, starting with the most basic, in my case, a meditator. I’ll put my features in the far left column of my document and then write stories in the second column. I expect to have several stories associated with each feature. Let’s start with ‘you can meditate with a nice timer display’. I don’t need social login to use this feature so all of our stories will be for a meditator. To create the stories, I think through what actions I would have to take to engage with this feature.
 
@@ -90,7 +90,7 @@ This is starting to look pretty good. I won’t go through all my features here 
 
 We would continue with this process until we felt we had all the user stories for each of our features. User story documents I encounter for 3-12 month project generally range from 30-60 stories depending on the complexity of the product and the granularity of your document.
 
-**5. Prioritize**
+###5. Prioritize###
 
 So now that we have a good list of user stories, it’s time to prioritize. Sadly we often don’t have time or money to do all the things we want right away so we have to choose what’s most important. First, I’ll organize my features in order of importance. For me ‘You can meditate with a nice timer display’ is much more important than ‘you can share your meditations to social media’. Then I’ll go in and order the user stories within a feature. In the case of my timer, ‘A meditator can choose a length of time for a session’ is crucial, where as, ‘A meditator can choose to show or hide the clock during a session’ is just nice to have. I’ll move that story to the bottom of the list.
 
