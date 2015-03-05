@@ -1,13 +1,25 @@
 Software Development can be a messy, complex beast. Feature creep is always 
-lurking around the corner, getting even a small team on the same page can feel daunting and communication can easily become muddied.  After working on teams for over 45 products I’ve become a strong believer in the value of using user stories to guide the development process. If you are a entrepreneur, developer or designer working on a new product or updating an existing application, user stories can give you and your whole team a great framework for keeping your project organized, cohesive and focused.
+lurking around the corner, getting even a small team on the same page can feel daunting and communication can easily become muddied.  After working on teams for over 45 products I’ve become a strong believer in the value of using user stories to guide the development process. If you are an entrepreneur, developer or designer working on a new product or updating an existing application, user stories can give you and your whole team a great framework for keeping your project organized, cohesive and focused.
 
 ##What are user stories?
 
-I like to describe user stories are a detailed list of actions and objects associated with the features of an application. That’s a little dense so we’ll unravel it a bit.
+I like to describe user stories as a detailed list of actions and objects associated with the features of an application. That’s a little dense so we’ll unravel it a bit.
 
-The difference between user stories and features can be a bit subtle so let’s use something simple, a kitchen, to think through their relationship. Features describe the high level actions. The features of a kitchen could be ‘you can can wash dishes in a dishwasher’, ‘you can store things in cabinets’, ‘you can store perishables in a refrigerator’, ‘you have counter space for prep work’, etc. User stories will take each of those features and break it down to detailed, lower level specifications. Let’s look at the feature ‘you can wash dishes in a dishwasher’.
+The difference between user stories and features can be a bit subtle so let’s use something simple, a kitchen, to think through their relationship. Features describe the high level actions. The features of a kitchen could be:
 
-The user stories associated with this feature might be ‘a user can open the dishwasher’, ‘a user can close the dishwasher’, ‘a user can add soap’, ‘a user can set the timer’. We would also include details about the dishwasher, which is an object associated with one of our main features. For example we might say ‘a dishwasher has and on off switch’, ‘a dishwasher has a two shelves’, ‘a dishwasher has a tray for soap’, etc. The idea here is to be break features down into the necessary actions and objects until all have been thoroughly described. It may feel a little silly, like you are stating the obvious, but it’s this kind of granularity that will keep a software development project moving forward with intent and focus.
+- You can can wash dishes in a dishwasher
+- You can store things in cabinets
+- You can store perishables in a refrigerator
+- You have counter space for prep work
+
+User stories will take each of those features and break it down to detailed, lower level specifications. Let’s look at the feature ‘you can wash dishes in a dishwasher’. The user stories associated with this feature might be: 
+
+- A user can open the dishwasher
+- A user can close the dishwasher
+- A user can add soap
+- A user can set the timer
+
+We would also include details about the dishwasher, which is an object associated with one of our main features. For example we might say ‘a dishwasher has and on off switch’, ‘a dishwasher has two shelves’, ‘a dishwasher has a tray for soap’, etc. The idea here is to be break features down into the necessary actions and objects until all of them have been thoroughly described. It may feel a little silly, like you are stating the obvious, but it’s this kind of granularity that will keep a software development project moving forward with intent and focus.
 
 ##Prework
 
@@ -28,15 +40,16 @@ Before you are ready to write user stories, you should have done a fair deal of 
 
 Before we begin with the steps to writing user stories I’d like to emphasize that this is a process that you have to spend some time with. You will not get a perfect or complete list the first time around so set aside time to revisit this document 2 or 3 times with your team. 
 
-I  very strongly believe that user story creation is best done with not only the primary stakeholders for the project, but also, at least one ux designer and one developer. If you don’t have designers or developers lined up for the project yet, find some that you respect and pay them to sit down with you and help you think through your user stories. Having the right people in the room during user story creation could literally be the difference between the success or failure of your product. Don’t skimp.
+I  very strongly believe that user story creation is best done with not only the primary stakeholders for the project, but also, at least one UX designer and one developer. If you don’t have designers or developers lined up for the project yet, find some that you respect and pay them to sit down with you and help you think through your user stories. Having the right people in the room during user story creation could literally be the difference between the success or failure of your product. Don’t skimp.
 
-Okay so lets get started. I like to use a Google Drive spreadsheet for my user story doc as it’s easy to share and update.For the purpose of this article, I will be showing you the process using a simple meditation timer app that I built 2 years ago. 
+Okay, so let's get started. I like to use a Google Drive spreadsheet for my user story doc as it’s easy to share and update. For the purpose of this article, I will be showing you the process using a simple meditation timer app that I built 2 years ago. 
 
 ##The 5 Step Process
 ###1. Write the Features###
 
 So first we want to write out the main features of the product. You can be ambitious here. In an ideal world, what would it do? We’ll come back later with a reality check as to how many of these features we can actually build.
 So for my mediation timer I’m going to say:
+
 - You can meditate with a nice timer display
 - You can save various meditation settings for future use
 - You can track your total meditation hours
@@ -46,14 +59,14 @@ That feels pretty complete to me so let’s move on.
 
 ###2. Identify User Types###
 
-This is an extremely important and often overlooked part of the process. The user types we are talking about here are not ‘a 90-year-old woman’, ‘a monk’, ‘a 20-something hipster’. Those are personas. User types are classes that the app assigns to a user that determine which views and functionality the user will have access to (which permissions they will have). For example, we might have ‘visitor’, ‘basic user’, ‘admin’, ‘super-admin’ etc.
+This is an extremely important and often overlooked part of the process. The user types we are talking about here are not ‘a 90-year-old woman’, ‘a monk’, or ‘a 20-something hipster’. Those are personas. User types are classes that the app assigns to a user that determine which views and functionality the user will have access to (which permissions they will have). For example, we might have ‘visitor’, ‘basic user’, ‘admin’, ‘super-admin’ etc.
  
 For the sake of my meditation timer I’m going to assume that I will be creating a native iPhone app. Therefore my user types will be:
 
 - Meditator (anyone who has downloaded the app)
 - Social user (someone who has connected a social account to the app)
 
-It’s important to strive to find accurate and descriptive names for your user types. Don’t waste too much time trying to be clever, though. The most important thing is that everyone is clear on what the user types are and uses the same language to describe them. I also note when I have a hierarchy of permissions. For example stating that a ‘social user’ in my app has all the same permissions as a ‘mediator’ and can take all the actions a meditator can take.
+It’s important to strive to find accurate and descriptive names for your user types. Don’t waste too much time trying to be clever, though. The most important thing is that everyone is clear on what the user types are and uses the same language to describe them. I also note when I have a hierarchy of permissions. For example stating that a ‘social user’ in my app has all the same permissions as a ‘meditator’ and can take all the actions a meditator can take.
 
 ###3. Identify Terms & Metaphors###
 
@@ -62,7 +75,7 @@ I’m alarmed how often I find myself on teams where the business team, dev team
 So for my meditation timer I have:
 - Session (an instance of a meditation)
 - Clock (the clock displaying my time remaining)
-- Quick-use (my saved settings for a session [this word seems awkward, I’ll come back later and try to make it better])
+- Preferences (my saved settings for a session)
 - History (history of my sessions)
 - Session summary (a summary of an individual session)
 - Stats page (a summary of all my sessions)
@@ -88,7 +101,7 @@ This is starting to look pretty good. I won’t go through all my features here 
 - A social user can share the **session summary** of any completed **session** to facebook and/or twitter
 - A **session summary** includes date, time of day,  length of **session**, and **session** image *(note that this story doesn’t talk about an action like the others but talks about the attributes of an object that is related to this feature)
 
-We would continue with this process until we felt we had all the user stories for each of our features. User story documents I encounter for 3-12 month project generally range from 30-60 stories depending on the complexity of the product and the granularity of your document.
+We would continue with this process until we felt we had all the user stories for each of our features. User story documents I encounter for a 3-12 month project generally ranges from 30-60 stories depending on the complexity of the product and the granularity of your document.
 
 ###5. Prioritize###
 
@@ -100,7 +113,7 @@ Lastly, go through and make decisions of what user stories will be implemented i
 - A meditator can choose a length of time for a session (v1.0)
 - A meditator can choose a bell type for a session (v1.0)
 - A meditator can choose an image to display during a session (v1.0)
-- A meditator can choose to show or hide the clock during a session (v2.0)
+- A meditator can choose to show or hide the clock during a session (v1.0)
 
 *You can share your meditations to social media* (v2.0)
 - A meditator can link their account to twitter and facebook (v2.0)
