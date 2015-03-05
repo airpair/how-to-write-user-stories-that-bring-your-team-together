@@ -75,7 +75,7 @@ I’m alarmed how often I find myself on teams where the business team, dev team
 So for my meditation timer I have:
 - Session (an instance of a meditation)
 - Clock (the clock displaying my time remaining)
-- Preferences (my saved settings for a session)
+- Quick-use (my saved settings for a session [I'll note here that this word seems awkward, I’ll come back later and try to make it better but for now I move on])
 - History (history of my sessions)
 - Session summary (a summary of an individual session)
 - Stats page (a summary of all my sessions)
@@ -113,7 +113,7 @@ Lastly, go through and make decisions of what user stories will be implemented i
 - A meditator can choose a length of time for a session (v1.0)
 - A meditator can choose a bell type for a session (v1.0)
 - A meditator can choose an image to display during a session (v1.0)
-- A meditator can choose to show or hide the clock during a session (v1.0)
+- A meditator can choose to show or hide the clock during a session (v2.0)
 
 *You can share your meditations to social media* (v2.0)
 - A meditator can link their account to twitter and facebook (v2.0)
