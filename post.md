@@ -7,7 +7,7 @@ I like to describe user stories as a detailed list of actions and objects associ
 
 The difference between user stories and features can be a bit subtle so let’s use something simple, a kitchen, to think through their relationship. Features describe the high level actions. The features of a kitchen could be:
 
-- You can can wash dishes in a dishwasher
+- You can wash dishes in a dishwasher
 - You can store things in cabinets
 - You can store perishables in a refrigerator
 - You have counter space for prep work
