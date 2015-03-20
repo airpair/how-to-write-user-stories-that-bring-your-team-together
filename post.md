@@ -42,7 +42,7 @@ Before we begin with the steps to writing user stories I’d like to emphasize t
 
 I  very strongly believe that user story creation is best done with not only the primary stakeholders for the project, but also, at least one UX designer and one developer. If you don’t have designers or developers lined up for the project yet, find some that you respect and pay them to sit down with you and help you think through your user stories. Having the right people in the room during user story creation could literally be the difference between the success or failure of your product. Don’t skimp.
 
-Okay, so let's get started. I like to use a Google Drive spreadsheet for my user story doc as it’s easy to share and update. For the purpose of this article, I will be showing you the process using a [simple meditation timer app](https://itunes.apple.com/us/app/golden-mind-meditation-timer/id466182995?ls=1&mt=8 "App download link") that I built for iOS a few years ago.
+Okay, so let's get started. I like to use a Google Drive spreadsheet for my user story doc as it’s easy to share and update. For the purpose of this article, I will be showing you the process using a <a href="https://itunes.apple.com/us/app/golden-mind-meditation-timer/id466182995?ls=1&mt=8" target="blank" title="app link">simple mediation timer app</a> that I built for iOS a few years ago.
 
 ##The 5 Step Process
 ###1. Write the Features###
